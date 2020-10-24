@@ -3,7 +3,7 @@
   "name": "cdkfoldingathome",
   "repository": {
     "type": "git",
-    "url": "https://github.com/edwin.radtke/foldingathome.git"
+    "url": "https://github.com/EdwinRad/cdkfoldingathome"
   },
   "bin": {},
   "scripts": {
