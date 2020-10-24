@@ -25,7 +25,7 @@
     "docgen": "jsii-docgen"
   },
   "author": {
-    "name": "Edwin",
+    "name": "Edwin @EdwinRad",
     "email": "edwin@boring-voice.com",
     "organization": false
   },
@@ -136,7 +136,7 @@
       "category": 2
     }
   },
-  "version": "0.1.0",
+  "version": "0.2.0",
   "types": "lib/index.d.ts",
   "jest": {
     "clearMocks": true,

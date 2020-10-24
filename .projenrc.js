@@ -2,7 +2,7 @@ const { AwsCdkConstructLibrary } = require('projen');
 
 const project = new AwsCdkConstructLibrary({
   authorAddress: "edwin@boring-voice.com",
-  authorName: "Edwin",
+  authorName: "Edwin @EdwinRad",
   cdkVersion: "1.70.0",
   name: "cdkfoldingathome",
   repository: "https://github.com/EdwinRad/cdkfoldingathome",
