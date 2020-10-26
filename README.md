@@ -5,6 +5,11 @@
 Run [Folding@Home](https://foldingathome.org/home/) with this prebuild CDK library and never forget to shut off expensive instances.
 With built-in TTL for your stack, you just define the lifetime of your instances and the stack will be destroyed afterwards.
 
+### About Folding@Home
+
+Folding@home is a project focused on disease research. The problems F@H is solving require many computer calcul­ations – so you can donate your excess compute power to help their research.
+In that sense, you are part of a huge distributed supercomputer!
+
 The architecture follows this AWS [blog post](https://aws.amazon.com/blogs/compute/foldinghome-infectious-disease-research-with-spot-instances/) and leverages g4dn.xlarge Spot EC2 instances to maximise GPU vs price efficiency. 
 
 Running at spot price drastically reduces the price from 0.59$ per hour to around 0.17 in eu-west-1. That's a nice 70% in savings.
@@ -12,6 +17,12 @@ Running at spot price drastically reduces the price from 0.59$ per hour to aroun
 ![spotsavings](spotpricing.png)
 
 I hope you enjoy this package and together we can make a difference and help the [Folding@Home](https://foldingathome.org/home/) program to succeed in their mission!
+
+### Progress
+After deployment, you can go into CloudWatch logs and open the log group *fahlog*.
+You can now see the progress every one of your instances makes towards the goal of unfolding proteins.
+![wu01fahlog.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1603533266726/2Fcf_74Lt.png)
+wu01 represents the work of the GPU and wu00 is the work of the CPU .
 
 Big thanks to [cdk-time-bomb](https://github.com/jmb12686/cdk-time-bomb) for the TTL function and [Ash Belmokadem](https://thecloudboss.nl/) and Vikin Shetty for debugging help!
 
