@@ -48,8 +48,6 @@ tsconfig.json
 !/.versionrc.json
 !/.github/workflows/build.yml
 !/.github/workflows/release.yml
-!/.mergify.yml
-!/.github/dependabot.yml
 !/src
 !/tsconfig.jest.json
 !/test

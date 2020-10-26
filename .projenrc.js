@@ -6,6 +6,8 @@ const project = new AwsCdkConstructLibrary({
   cdkVersion: "1.70.0",
   name: "cdkfoldingathome",
   repository: "https://github.com/EdwinRad/cdkfoldingathome",
+  mergify: false,
+  dependabot: false,
   cdkDependencies: [
     "@aws-cdk/aws-ec2",
     "@aws-cdk/aws-iam",
